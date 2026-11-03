@@ -22,6 +22,24 @@ section{padding:65px 0}.head{text-align:center;max-width:680px;margin:0 auto 32p
 @media(max-width:760px){.hero-grid{grid-template-columns:1fr}.hero{padding:38px 0}.parrot-card{min-height:260px}.steps{grid-template-columns:1fr}.contact-grid{display:block}.contact-actions{margin-top:15px}}
 @media(max-width:520px){.services{grid-template-columns:1fr}.photos{grid-template-columns:1fr 1fr}.phone{font-size:14px}.lead{font-size:17px}}
 @media(max-width:390px){.photos{grid-template-columns:1fr}}
+
+.benefits{background:#fffefa}
+.benefit-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.benefit-card{background:#fff;border:1px solid #e5e9e9;border-radius:19px;padding:25px;box-shadow:0 8px 24px #17354a08}
+.benefit-card h3{color:var(--navy);font-size:21px;margin:0 0 10px}
+.benefit-card p{color:var(--muted);margin:0 0 12px}
+.benefit-card ul{margin:0;padding-left:20px;color:#42535e}
+.benefit-card li{padding:4px 0}
+.tip{margin-top:18px;padding:17px 20px;border-radius:15px;background:#eaf5fa;color:#34566b;font-size:14px}
+.wood-benefits{background:linear-gradient(120deg,#fff7ed,#fff 55%,#edf7fb)}
+.benefit-wide{display:grid;grid-template-columns:.85fr 1.15fr;gap:26px;align-items:center}
+.paint-swatch{min-height:230px;border-radius:22px;background:linear-gradient(145deg,#eaf7fb,#fff 48%,#fff0e9);display:grid;place-items:center;font-size:64px;position:relative;overflow:hidden}
+.paint-swatch:before,.paint-swatch:after{content:"";position:absolute;width:130%;height:38px;border-radius:50%;transform:rotate(-18deg);opacity:.65}
+.paint-swatch:before{background:#168bc5;top:55px;left:-30px}
+.paint-swatch:after{background:#e34b3f;bottom:45px;right:-30px}
+.paint-swatch span{position:relative;z-index:1}
+@media(max-width:760px){.benefit-grid{grid-template-columns:1fr}.benefit-wide{grid-template-columns:1fr}.paint-swatch{min-height:160px}}
+
 </style></head><body>
 <header class="wrap"><a class="brand" href="#">ПОКРАСКА <span>14</span></a><a class="phone" href="tel:+79118580714">8 911 858-07-14</a></header>
 <main>
@@ -33,6 +51,87 @@ section{padding:65px 0}.head{text-align:center;max-width:680px;margin:0 auto 32p
 <article class="service"><div class="ico">▤</div><div><h3>Грунтовка и покраска деревянных поверхностей</h3><p>Работа с деревянной обшивкой и другими деревянными поверхностями.</p></div></article>
 <article class="service"><div class="ico">♨</div><div><h3>Покраска бань и саун</h3><p>Покраска деревянных элементов с подбором подходящих составов для конкретной поверхности.</p></div></article>
 </div></div></section>
+
+<section class="benefits">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Обновление интерьера</div>
+      <h2>Почему стоит покрасить квартиру?</h2>
+      <p>Свежая краска помогает обновить пространство без полной переделки интерьера.</p>
+    </div>
+    <div class="benefit-grid">
+      <article class="benefit-card">
+        <h3>Обновлённый вид комнат</h3>
+        <p>Покраска освежает интерьер и помогает изменить настроение помещения — от спокойных светлых оттенков до выразительных цветовых решений.</p>
+        <ul>
+          <li>Можно обновить цвет стен и потолка.</li>
+          <li>Легче объединить интерьер в едином стиле.</li>
+          <li>Комната выглядит аккуратнее и свежее.</li>
+        </ul>
+      </article>
+      <article class="benefit-card">
+        <h3>Практичность в повседневной жизни</h3>
+        <p>Если правильно подобрать краску под тип помещения и подготовить основание, окрашенную поверхность может быть проще поддерживать в чистоте.</p>
+        <ul>
+          <li>Для разных комнат можно подобрать подходящее покрытие.</li>
+          <li>Небольшие следы эксплуатации иногда проще обновить локально.</li>
+          <li>Грунтовка помогает подготовить основание перед окрашиванием.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="wood-benefits">
+  <div class="wrap benefit-wide">
+    <div class="paint-swatch"><span>🖌️</span></div>
+    <div>
+      <div class="eyebrow">Уход за древесиной</div>
+      <h2>Зачем грунтовать и красить дерево?</h2>
+      <p>Деревянные стены, обшивка и другие поверхности постоянно сталкиваются с бытовой нагрузкой и изменениями условий в помещении. Подходящие составы помогают сохранить аккуратный вид древесины и продлить срок службы покрытия.</p>
+      <div class="benefit-card">
+        <ul>
+          <li>Покрытие помогает уменьшить воздействие влаги и загрязнений — если состав предназначен для конкретной поверхности.</li>
+          <li>Цвет и финиш подчёркивают фактуру дерева или придают ему новый вид.</li>
+          <li>Правильная подготовка и грунтовка помогают покрытию равномернее ложиться и лучше держаться.</li>
+          <li>Поверхность может стать проще в регулярном уходе.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Бани и сауны</div>
+      <h2>Почему важно правильно обрабатывать баню и сауну?</h2>
+      <p>В помещениях с перепадами температуры и влажности особенно важно подбирать составы по назначению.</p>
+    </div>
+    <div class="benefit-grid">
+      <article class="benefit-card">
+        <h3>Защита деревянных поверхностей</h3>
+        <p>Специальные составы для бань и саун могут помогать древесине противостоять влаге, загрязнениям и повседневному износу.</p>
+        <ul>
+          <li>Помогают дольше сохранять опрятный внешний вид.</li>
+          <li>Могут облегчать очистку обработанных поверхностей.</li>
+          <li>Подчёркивают естественную текстуру дерева.</li>
+        </ul>
+      </article>
+      <article class="benefit-card">
+        <h3>Состав должен подходить для условий парной</h3>
+        <p>Для горячих и влажных зон подходят не любые краски и грунтовки. Важно учитывать назначение продукта, температуру эксплуатации и рекомендации производителя.</p>
+        <ul>
+          <li>Использовать только составы, предназначенные для соответствующих зон бани или сауны.</li>
+          <li>Учитывать, можно ли применять средство на полках, стенах и потолке.</li>
+          <li>Соблюдать инструкцию по нанесению, сушке и проветриванию.</li>
+        </ul>
+      </article>
+    </div>
+    <div class="tip"><strong>Важно:</strong> для поверхностей, которые сильно нагреваются или соприкасаются с кожей, нельзя выбирать обычную интерьерную краску наугад. Состав подбирают строго по назначению и инструкции производителя.</div>
+  </div>
+</section>
+
 <section class="gallery" id="works"><div class="wrap"><div class="head"><div class="eyebrow">Примеры работ</div><h2>Наши работы</h2><p>Здесь появятся фотографии выполненных проектов.</p></div><div class="photos"><div class="slot"><b>＋ Фотография работы</b><span>Добавим ваше фото</span></div><div class="slot"><b>＋ Фотография работы</b><span>Добавим ваше фото</span></div><div class="slot"><b>＋ Фотография работы</b><span>Добавим ваше фото</span></div></div></div></section>
 <section><div class="wrap"><div class="head"><div class="eyebrow">Просто и понятно</div><h2>Как обратиться</h2></div><div class="steps"><article class="step"><div class="num">01</div><h3>Свяжитесь с мастером</h3><p>Позвоните или напишите удобным способом.</p></article><article class="step"><div class="num">02</div><h3>Обсудите задачу</h3><p>Расскажите, что нужно загрунтовать и покрасить.</p></article><article class="step"><div class="num">03</div><h3>Уточните стоимость</h3><p>Мастер обсудит объём работ и расчёт стоимости.</p></article></div></div></section>
 <section class="contact" id="contacts"><div class="wrap contact-grid"><div><div class="eyebrow" style="color:#8ed6f3">На связи</div><h2>Обсудим вашу задачу?</h2><p>Свяжитесь с мастером по телефону или в мессенджере.</p><a class="bigphone" href="tel:+79118580714">8 911 858-07-14</a></div><div class="contact-actions"><a class="btn" href="tel:+79118580714">Позвонить</a><a class="btn wa" href="https://wa.me/79118580714" target="_blank" rel="noopener">WhatsApp</a><a class="btn tg" href="https://t.me/+79118580714" target="_blank" rel="noopener">Telegram</a></div></div></section>
